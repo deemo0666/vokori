@@ -31,3 +31,10 @@ h2 { font-size: 19px; margin: 32px 0 8px; }
 ul { padding-left: 1.2em; }
 li { margin: 4px 0; }
 hr { border: 0; border-top: 1px solid var(--rule); margin: 56px 0; }
+.langs { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--muted); line-height: 2; }
+.langs a { margin-right: 12px; white-space: nowrap; }
+.langs strong { margin-right: 12px; white-space: nowrap; color: var(--fg); font-weight: 600; }
+[dir="rtl"] ul { padding-left: 0; padding-right: 1.2em; }
+[dir="rtl"] .langs a, [dir="rtl"] .langs strong { margin-right: 0; margin-left: 12px; }
+ul.langs { list-style: none; padding-left: 0; }
+ul.langs li span { color: var(--fg); }
